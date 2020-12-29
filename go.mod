@@ -18,7 +18,8 @@ require (
 	google.golang.org/grpc v1.33.0
 	google.golang.org/protobuf v1.25.0 // indirect
 	k8s.io/kubernetes v1.17.12
-	k8s.io/utils v0.0.0-20201015054608-420da100c033
+	k8s.io/mount-utils v0.0.0-00010101000000-000000000000
+	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
 
 replace k8s.io/api => k8s.io/api v0.17.12
@@ -62,3 +63,5 @@ replace k8s.io/metrics => k8s.io/metrics v0.17.12
 replace k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.17.12
 
 replace k8s.io/kubectl => k8s.io/kubectl v0.17.12
+
+replace k8s.io/mount-utils => k8s.io/mount-utils v0.20.1
